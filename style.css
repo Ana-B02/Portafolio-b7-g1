@@ -1,9 +1,79 @@
+
 body{
-    background-color: rgb(207, 198, 215);
+    background-color: #CDB2FF;
+    color:rgb(255, 255, 255);
 }
+
+#perfil{
+    border-radius: 50%;
+}
+
+main{
+    
+    background-image: url("assets/fondo.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
 #presentacion {
-    height: 90vh;
-    display: flex;
-    justify-content: start;
+
+    text-shadow: -2px 0px 6px rgba(0, 0, 0, 1);
     align-items: center;
+
+}
+
+
+#proyecto-1{
+    background-image: url('assets/googleclon.png');
+    background-position: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#proyecto-2{
+    background-image: url('assets/SVM.png');
+    background-position: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#proyecto-3{
+    background-image: url('assets/onda.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-size-adjust: 15px;
+    
+}
+
+
+
+#proyecto-4{
+    background-image: url('assets/Alice.png');
+    background-position: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#proyecto-5{
+    background-image: url('assets/socket1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#proyecto-6{
+    background-image: url('assets/reloj.png');
+    background-position: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+#test{
+    height: 150px;
+}
+
+.text-shadow-1 {
+    text-align: end;
+    text-shadow: -2px 0px 6px rgba(0, 0, 0, 1);
 }
